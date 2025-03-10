@@ -1,6 +1,6 @@
 body {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(135, 213, 250));
 }
@@ -24,6 +24,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   gap: 3rem;
+  
 }
 a {
   text-decoration: none;
@@ -33,6 +34,11 @@ a {
   font-weight: 500;
   transform: 0.3s linear;
   position: relative;
+  height: 20px;
+  width: 100px;
+  padding: 5px 5px 5px 15px;
+  border-radius: 25px;
+  text-align: center;
 }
 .nav-container a::before {
   position: absolute;
@@ -51,11 +57,13 @@ a {
   color: rgb(39, 60, 243);
 
   /* scale: 1.1; */
-  color: rgb(21, 11, 210);
+  /* color: rgb(21, 11, 210); */
+  color: white;
   /* border: 2px solid rgb(19, 57, 183); */
-  background-color: transparent;
+  background-color: rgb(81, 81, 230);
   font-weight: 700;
   box-shadow: 0 0 40px rgb(117, 65, 240);
+  
 }
 section {
   width: 100%;
@@ -246,3 +254,32 @@ p {
     align-items: center;
   }
 }
+
+/* * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      a:hover {
+        color: white; 
+        background-color: rgb(122, 90, 220);
+      }
+      .header {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        height: 30px;
+        width: 100%;
+        background-color: aqua;
+        top: 0;
+        z-index: 10;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 5px 5px;
+        border-radius: 20px;
+        transition: 0.3s ease;
+      }
+ */
