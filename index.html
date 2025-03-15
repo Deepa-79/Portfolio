@@ -15,23 +15,22 @@
     <header>
       <nav>
         <div class="nav-container">
+          <!-- <i class="fa-solid fa-bars" id="menu-icon"></i> -->
+          <a href="#Home" style="--i: 1" class="active">Home</a>
 
-          <i class="fa-solid fa-bars" id="menu-icon"></i>
-          <a href="#Home">Home</a>
+          <a href="#About Me" style="--i: 2">About Me</a>
 
-          <a href="#About Me">About Me</a>
+          <a href="#Education" style="--i: 3">Education</a>
 
-          <a href="#Education">Education</a>
+          <a href="#Skills" style="--i: 4">Skills</a>
 
-          <a href="#Skills">Skills</a>
-
-          <a href="#Project">Projects</a>
+          <a href="#Projects" style="--i: 5">Projects</a>
         </div>
       </nav>
     </header>
 
     <!-- Home Section Design -->
-    <section class="main-container">
+    <section class="main-container" id="Home">
       <div>
         <img class="image" src="media/my pic.jpg" alt="" />
       </div>
@@ -39,29 +38,179 @@
 
       <p class="content">
         I am a Front-end developer. <br />
-        I am currently persuing Master of Computer Applicatin form SIRT college
-        Bhopal. In this span of 1.5 years i have learned sone technical and
+        I am currently persuing Master of Computer Application form SIRT college
+        Bhopal. In this span of 1.5 years i have learned some technical and
         non-technical technologies,My experties include C/C++ programming,
         HTML,CSS, JavaScsript,etc.
-        <br />
-        <div class="social-links">
-                        <a href="#" ><i class="fa-brands fa-github"></i></a>
-                        
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                       
-         
-                    </div>
-                    <div class="links"><a 
-          href="https://drive.google.com/file/d/1ITtCqMNa7NX9fcOoR5flAzyVwZxlOnKt/view"
-          target="_blank"
-        >
-          <button class="btn ">Download Resume</button>
-        </a></div>
-        
       </p>
+      <br />
+      <div class="social-links">
+        <a href="https://github.com/Deepa-79" style="--i: 6"><i class="fa-brands fa-github"></i></a>
+
+        <a href="https://www.linkedin.com/in/deepa-chaturvedi/" style="--i: 7"><i class="fa-brands fa-linkedin"></i></a>
+
+         <a
+            href="https://drive.google.com/file/d/1ITtCqMNa7NX9fcOoR5flAzyVwZxlOnKt/view"
+            target="_blank"
+          >
+            <button class="btn">Download Resume</button>
+
+        <div class="links">
+          <a
+            href="https://drive.google.com/file/d/1ITtCqMNa7NX9fcOoR5flAzyVwZxlOnKt/view"
+            target="_blank"
+          >
+            <button script="display:none" class="btn">Download resume </button>
+          </a>
+        </div>
+      </div>
     </section>
+    
     <!-- about Me -->
+     <!-- <hr /> -->
+    <section class="about" id="About Me">
+      <div class="about-img">
+        <img src="media/my pic.jpg" class="image" alt="mypic" />
+      </div>
+      <div class="about-text">
+        <h2>About <span> Me</span></h2>
+        <h4>Front-end Developer!</h4>
+        <p >
+          Hello! I'm Deepa Chaturvedi, an MCA student at SIRT College, Bhopal,
+          with a strong focus on Frontend Development. My technical background
+          includes C, C++, HTML, CSS, and JavaScript, along with hands-on
+          experience using Git and GitHub. I thrive on learning new technologies
+          and turning ideas into functional and visually engaging web solutions.
+          As a motivated fresher, I'm excited to take on challenging projects,
+          expand my skills, and deliver impactful digital experiences.
+        </p>
+        <a href="#" class="btn"> More About me</a>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Education section -->
+    <section class="education-container" id="Education">
+      <div class="educaton" id="education">
+        <div class="container">
+          <h1 class="sub-title">My <span>Education</span></h1>
+          <div class="education-list">
+            <div>
+              <i class="fas fa-desktop"></i>
+              <h2>MCA (Master of Computer Application)</h2>
+              <p>
+                Sagar Institute of research and Technology College, Bhopal
+                <br /><br />| Ongoing
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-desktop"></i>
+              <h2><i class=""></i>Bachelor of Computer Application (BCA)</h2>
+              <p>
+                Govt. Autonomous Girls' PG College of Excellence, Sagar, M.P.
+                <br />
+                <br />
+                | 2020-2023
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-desktop"></i>
+              <h2><i class=""></i>Higher Secondary Education (12th)</h2>
+              <p>
+                Govt. Model Higher Secondary School, Buxwaha Subjects: PCM
+                (Physics, Chemistry, Mathematics)
+                <br />
+                <br />
+                | 2019-2020
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-desktop"></i>
+              <h2><i class=""></i>Secondary Education (10th)</h2>
+              <p>
+                Govt. Model Higher Secondary School, Buxwaha Subjects: PCM
+                (Physics, Chemistry, Mathematics)
+                <br />
+                <br />
+                | 2018-2019
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Skills Section -->
+    <!-- <section>
+<h1 class="sub-title">My <span>Skills</span></h1>
+
+<div class="container1" id="skills">
+  <h1 class="heading1">Technical Skills</h1>
+  <div class="technical-bars">
+    <div class="bar">
+      <div class="info">
+        <span>HTML</span>
+      </div>
+      .prog
+    </div>
+  </div>
+</div>
+    </section> -->
+    <!-- project section -->
+    <section class="project" id="Projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="media/1.jpg" />
+          <div class="project-layer">
+            <h4>weather App</h4>
+            <p>
+              click here
+               <a href=" https://deepa-79.github.io/weather-app/">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+           
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="media/2.jpg" />
+          <div class="project-layer">
+            <h4>Digital Clock</h4>
+            
+            <p>click here
+              <a href="https://deepa-79.github.io/Digital-clock/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+           
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="media/3.jpg" />
+          <div class="project-layer">
+            <h4>web design</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"> </i>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="media/4.jpg" />
+          <div class="project-layer">
+            <h4>web design</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="media/5.jpg" />
+          <div class="project-layer">
+            <h4>web design</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
   </body>
 </html>
-
-
